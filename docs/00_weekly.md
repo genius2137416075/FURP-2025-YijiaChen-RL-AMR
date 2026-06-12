@@ -24,7 +24,8 @@
    解决：使用清华PyPI镜像源，清除pip缓存后重新安装
 3. Conda包下载速度慢
    解决：配置清华Conda镜像源
-   # 我在 ARM Ubuntu 虚拟机编译运行 Habitat‑Sim 项目全流程问题&解决方案总结
+
+    # 我在 ARM Ubuntu 虚拟机编译运行 Habitat‑Sim 项目全流程问题&解决方案总结
 
 > 环境背景：Apple Silicon Mac + ARM aarch64 架构 Ubuntu 22.04 虚拟机，目标编译、运行 `habitat‑sim` + `habitat‑lab` 仿真项目，使用 `pytorch_env` Conda 环境
 
@@ -103,7 +104,7 @@
 - 性质：**无头模式下正常现象，可忽略**
 - 原因：无头编译禁用了图形导入功能，图形库无需加载对应插件
 
-### 下周计划
+# 下周计划
 1. 完成Habitat烟雾测试并保存完整运行日志作为提交材料
 2. 学习habitat-baselines中的PointNav强化学习基线算法
 3. 阅读关于强化学习导航奖励设计的相关论文
